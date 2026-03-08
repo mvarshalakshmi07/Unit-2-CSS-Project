@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Selector Advance</title>
+<style>
+
+/* Descendant */
+div p{
+color:rgba(0, 183, 255, 0.834);
+}
+
+/* Child */
+div > h3{
+color:rgba(255, 0, 0, 0.61);
+}
+
+/* Adjacent */
+h1 + p{
+color:green;
+}
+
+/* General sibling */
+h1 ~ h2{
+color:orange;
+}
+
+/* Attribute */
+input[type="text"]{
+border:2px solid black;
+}
+
+/* Hover */
+a:hover{
+color:red;
+}
+
+/* Pseudo Element */
+p::first-letter{
+font-size:25px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Advanced Selectors</h1>
+
+<p>M Varshalakshmi</p>
+
+<h2>Sibling</h2>
+
+<div>
+
+<h3>Sivesh Kumar</h3>
+
+<p>Elder Sister</p>
+
+</div>
+
+<input type="text" placeholder="Enter the relationship">
+
+<br><br>
+
+<a href="#">Hover me</a>
+
+</body>
+</html>

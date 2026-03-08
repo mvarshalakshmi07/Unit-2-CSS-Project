@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    box-sizing: border-box;
+}
+/* Logo */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo img {
+    width: 40px;
+}
+.nav-logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f6f6a;
+}
+/* Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+.nav-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #2e4f4b;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+.nav-links a:hover {
+    background-color: #1f6f6a;  
+    color: white;
+}
+/* CONTENT */
+.content {
+    margin-top: 100px; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: #1f6f6a;
+    font-family: "Times New Roman", Times, serif;
+}
+/* Page heading */
+h1 {
+    text-align: center;
+    color: #1f6f6a;
+    margin-top: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+/* Base styling */
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #eaf6f4; 
+    margin: 0;
+    padding: 0;
+}
+/* Content width control */
+body > h1,
+body > p,
+form,
+body > a,
+.section-container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+/* Headings */
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 30px;
+}
+/* Paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* Container */
+.section-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px auto;
+    flex-wrap: wrap; 
+}
+/* Individual box */
+.info-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.info-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 100%;
+    max-width: 2000px;   
+    margin: 20px auto;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Box headings */
+.info-box h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #1f6f6a;
+}
+/* Lists inside boxes */
+.info-box ol,
+.info-box ul {
+    padding-left: 20px;
+    font-size: 17px;
+}
+.info-box li {
+    margin-bottom: 8px;
+}
+.info-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 100%;
+    max-width: 900px;   
+    margin: 25px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.info-box h2 {
+    margin-top: 0;
+    color: #1f6f6a;
+}
+.info-box ul,
+.info-box p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* FORM */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/* Labels */
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Inputs & textarea */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 17px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* Buttons */
+button {
+    padding: 10px 25px;
+    font-size: 17px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+button[type="submit"] {
+    background-color: #7fbfb8;
+}
+button[type="reset"] {
+    background-color: #cfe6e3;
+}
+/* Back link center */
+body > a {
+    display: block;
+    text-align: center;
+    margin: 25px auto;
+    color: #1f6f6a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+}
+/* FOOTER */
+footer {
+    background-color: #1f6f6a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer h3 {
+    color: white;
+    margin-top: 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+/* Copyright */
+footer p:last-child {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 32px;       /* emoji size */
+    background: none;      /* remove default button bg */
+    border: none;          /* remove border */
+    cursor: pointer;
+    transition: transform 0.2s, color 0.3s;
+}
+
+#topBtn:hover {
+    color: #00a86b;        /* peacock green on hover */
+    transform: scale(1.2); /* subtle zoom effect */
+}

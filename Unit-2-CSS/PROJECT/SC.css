@@ -1,0 +1,182 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding-top: 80px;
+    background-color: #f4f7f7;
+}
+/* NAVIGATION BAR*/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;             
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;       
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    z-index: 1000;
+    box-sizing: border-box; 
+}
+/* Logo section */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo img {
+    width: 40px;
+    height: 40px;
+}
+.nav-logo span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f6f6a;
+    white-space: nowrap;   
+}
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #2e4f4b;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+.nav-links a:hover {
+    background-color: #1f6f6a;  
+    color: white;
+}
+/* heading */
+h1 {
+    text-align: center;
+    color: #1f6f6a;
+    margin-top: 25px;
+}
+/* Paragraphs */
+body > p {
+    max-width: 900px;
+    margin: 18px auto;
+    font-size: 18px;
+    text-align: justify;
+}
+/* Video */
+iframe {
+    display: block;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+/* Section heading */
+h2 {
+    text-align: center;
+    color: #1f6f6a;
+    font-size: 26px;
+    margin: 40px auto 20px auto;
+    width: 100%;
+}
+/* List */
+.techniques {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 0;
+    list-style: none;
+}
+.techniques li {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    font-size: 17px;
+    text-align: center;
+}
+/* Note */
+p i {
+    display: block;
+    max-width: 900px;
+    margin: 20px auto;
+    font-size: 16px;
+    color: #444;
+}
+/* Navigation links */
+.nav-buttons {
+    text-align: center;
+    margin: 30px 0;
+}
+.nav-buttons a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 22px;
+    background-color: #1f6f6a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 22px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.nav-buttons a:hover {
+    background-color: #165853;
+}
+/* Interactive Buttons Container */
+div button {
+    padding: 12px 22px;
+    margin: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #1f6f6a;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+div button:hover {
+    background-color: #165853;
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Click Effect */
+div button:active {
+    transform: scale(0.95);
+}
+div[style*="text-align:center"] {
+    margin-bottom: 10px;
+}
+/*Footer*/
+footer {
+    background-color: #1f6f6a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer h3 {
+    color: white;
+    margin-top: 0;
+}
+/* Footer links */
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+/*Copyright*/
+footer p:last-child {
+    margin-top: 18px;
+    font-size: 14px;
+}

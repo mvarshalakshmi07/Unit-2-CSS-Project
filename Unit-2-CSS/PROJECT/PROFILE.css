@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f4f7f6;
+    padding-top: 70px;
+}
+/* NAVIGATION BAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;      
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    box-sizing: border-box;
+}
+/* Logo section */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo img {
+    width: 40px;
+    height: 40px;
+}
+.nav-logo span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f6f6a;
+    white-space: nowrap;   
+}
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #2e4f4b;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+.nav-links a:hover {
+    background-color: #1f6f6a;  
+    color: white;
+}
+/* General */
+body {
+    margin: 0;
+    padding-top: 70px;  
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f4f7f6;
+}
+/* Header */
+h1 {
+    background-color: #1f6f6a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+}
+h1 img {
+    border-radius: 50%;
+}
+/* Profile Image */
+img[alt="Profile Picture"] {
+    display: block;
+    margin: 10px auto; 
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+/* Make profile pic circular and add hover glow */
+img[alt="Profile Picture"] {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;      /* makes it circular */
+    object-fit: cover;       /* keeps image proportions */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+img[alt="Profile Picture"]:hover {
+    transform: scale(1.05);  /* slight zoom on hover */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* glow effect */
+}
+/* BUTTONS */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* space between buttons */
+    margin: 10px 0 15px;
+}
+/* Buttons */
+button {
+    background-color: #1f6f6a;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #185552;
+}
+/* FORM */
+form {
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* BACK TO SETTINGS LINK */
+.back-link {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: #1f6f6a;
+    text-decoration: none;
+    font-weight: bold;
+}
+.back-link:hover {
+    text-decoration: underline;
+}
+/* FOOTER */
+footer {
+    background-color: #1f6f6a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer h3 {
+    color: white;
+    margin-top: 0;
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer p:last-child {
+    margin-top: 18px;
+    font-size: 14px;
+}
